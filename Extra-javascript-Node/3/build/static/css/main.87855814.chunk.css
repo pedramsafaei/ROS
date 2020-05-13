@@ -1,0 +1,30 @@
+body,
+html {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif
+}
+
+.higher {
+  margin-top: 2rem;
+  z-index: 1000
+}
+
+#canvas,
+#video {
+  position: fixed;
+  top: 0;
+  left: 0
+}
+
+@media (max-width:480px) {
+  .higher {
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+    border: 0
+  }
+}
+
+/*# sourceMappingURL=main.87855814.chunk.css.map */

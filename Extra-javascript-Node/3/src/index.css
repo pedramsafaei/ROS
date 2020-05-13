@@ -1,0 +1,38 @@
+body,html{
+  background: #000000;
+  color:#fff;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.higher{
+  margin-top: 2rem;
+  z-index: 1000;
+
+}
+
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#video {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+@media (max-width: 480px) {
+  /* Selectors and styles affecting screens UP TO 480px (Phone) */
+  .higher{
+    margin:0px;
+    padding: 0px;
+    z-index: 1000;
+    border: 0px;
+  
+  }
+
+}
