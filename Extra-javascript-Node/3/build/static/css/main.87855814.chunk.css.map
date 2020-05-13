@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "index.css"
+  ],
+  "names": [],
+  "mappings": "AAAA,UACE,eAAmB,CACnB,UAAU,CACV,iBAAkB,CAClB,kCACF,CAEA,QACE,eAAgB,CAChB,YAEF,CASA,eACE,cAAe,CACf,KAAM,CACN,MACF,CAGA,yBAEE,QACE,QAAU,CACV,SAAY,CACZ,YAAa,CACb,QAEF,CAEF",
+  "file": "main.87855814.chunk.css",
+  "sourcesContent": [
+    "body,html{\n  background: #000000;\n  color:#fff;\n  text-align: center;\n  font-family: 'Noto Sans', sans-serif;\n}\n\n.higher{\n  margin-top: 2rem;\n  z-index: 1000;\n\n}\n\n\n#canvas {\n  position: fixed;\n  top: 0;\n  left: 0;\n}\n\n#video {\n  position: fixed;\n  top: 0;\n  left: 0;\n}\n\n\n@media (max-width: 480px) {\n  /* Selectors and styles affecting screens UP TO 480px (Phone) */\n  .higher{\n    margin:0px;\n    padding: 0px;\n    z-index: 1000;\n    border: 0px;\n  \n  }\n\n}"
+  ]
+}
